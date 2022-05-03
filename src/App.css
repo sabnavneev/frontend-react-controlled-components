@@ -1,1 +1,75 @@
-/*Schrijf hier jouw css voor jouw formulier*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+form {
+    width: 600px;
+    margin: 40px 40px;
+}
+
+fieldset{
+    padding: 5px 10px 10px 10px;
+}
+
+input[type=text] {
+    padding: 0 4px;
+    margin: 10px 5px;
+    width: 300px;
+    font-size: 14px;
+}
+
+input[type=number] {
+    padding: 0 4px;
+    margin: 5px 5px;
+    width: 293px;
+    font-size: 14px;
+}
+
+textarea {
+    padding: 0 4px;
+    margin: 5px 0;
+    width: 357px;
+    font-size: 14px;
+}
+
+
+input[type=text].input-error {
+    border: 1px solid red;
+}
+
+input[type=checkbox] {
+    margin: 16px 8px 16px 0;
+}
+
+
+button {
+    background-color: indianred;
+    border-radius: 5px;
+    font-weight: 300;
+    border: none;
+    padding: 4px 8px;
+    font-size: 16px;
+    color: white;
+}
+
+button:disabled {
+    background-color: #ededed;
+    color: gray;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
